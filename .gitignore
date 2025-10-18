@@ -33,3 +33,12 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# .gitignore
+
+# ...
+
+# contentlayer
+.contentlayer
+
+/generated/prisma
