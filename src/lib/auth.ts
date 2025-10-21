@@ -14,11 +14,11 @@ export const authOptions: NextAuthOptions = {
         timeout: 10000, // 10秒に延長
       },
     }),
-    Google({
-      clientId: process.env.GOOGLE_CLIENT_ID!,
-      clientSecret: process.env.GOOGLE_CLIENT_SECRET!,
-      allowDangerousEmailAccountLinking: true,
-    }),
+    // Google({
+    //   clientId: process.env.GOOGLE_CLIENT_ID!,
+    //   clientSecret: process.env.GOOGLE_CLIENT_SECRET!,
+    //   allowDangerousEmailAccountLinking: true,
+    // }),
   ],
   adapter: PrismaAdapter(db),
   pages: {
