@@ -67,7 +67,7 @@ export default function UserAuthForm() {
           ) : (
             <Icon.google className="mr-2" />
           )}
-          Github
+          Google
         </button>
       </div>
     </div>
