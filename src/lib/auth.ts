@@ -65,6 +65,5 @@ export const authOptions: NextAuthOptions = {
     maxAge: 30 * 24 * 60 * 60, // 30 days
   },
   // デバッグモード（開発時のみ）
-  // debug: process.env.NODE_ENV === "development",
-  debug: false, // デバッグログを無効化
+  debug: true, // デバッグログを有効化
 };
