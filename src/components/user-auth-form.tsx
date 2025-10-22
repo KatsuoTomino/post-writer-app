@@ -54,7 +54,7 @@ export default function UserAuthForm() {
         Github
       </button>
 
-      {/* <div className="flex flex-col gap-3">
+      <div className="flex flex-col gap-3">
         <button
           className={cn(buttonVariants({ variant: "outline" }))}
           onClick={() => {
@@ -69,7 +69,7 @@ export default function UserAuthForm() {
           )}
           Google
         </button>
-      </div> */}
+      </div>
     </div>
   );
 }
